@@ -1,11 +1,17 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url: https://github.com/zmkfirmware
+    - name: geigeigeist
+      url: https://github.com/GEIGEIGEIST
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: zmk-totem-shield
+      remote: geigeigeist
+      revision: main
+      path: boards/shields/totem
   self:
     path: config
