@@ -1,9 +1,9 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url: https://github.com/zmkfirmware
     - name: geigeigeist
-      url-base: https://github.com/GEIGEIGEIST
+      url: https://github.com/GEIGEIGEIST
   projects:
     - name: zmk
       remote: zmkfirmware
